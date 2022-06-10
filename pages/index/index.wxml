@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class='loading {{fadeout}}'>
+  <image class='logo' src='../../public/img/mx_logo.png' mode='aspectFit'></image>
+  <image class='plane {{fly}}' src='../../public/img/paperPlane.png' mode='aspectFit'></image>
+</view>
+<view class="container">
+  <view class='message {{fadein}}' bindtap='bindViewTap'>
+    <block wx:for="{{countrys}}" wx:key="*this">
+      <view data-id='{{index}}'>{{item}}</view>
+    </block>
+  </view>
+  <!-- <button bindtap='resetPage'>Reset</button> -->
+</view>

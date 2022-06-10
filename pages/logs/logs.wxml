@@ -1,0 +1,6 @@
+<view>
+<text class='{{font}}'>{{country}}</text>
+</view>
+<view>
+<button bindtap='changeFont'>change</button>
+</view>

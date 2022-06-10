@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "慕溪北欧旅游",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee"
+  },
+  "sitemapLocation": "sitemap.json"
+  
+}

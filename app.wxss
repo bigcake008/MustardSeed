@@ -1,0 +1,15 @@
+/**app.wxss**/
+/* 字体样式导入1.8M */
+@import './public/font/X-xiheiti.wxss';
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 200rpx 0; */
+  box-sizing: border-box;
+} 
